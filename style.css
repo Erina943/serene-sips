@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f0e2c5;
   color: #49281a;
@@ -119,4 +123,64 @@ footer {
   padding: 10px;
   color: #f0e2c5;
   border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* about-us */
+
+#about-us p,
+#contact-us p,
+footer p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5rem;
+  text-align: justify;
+  padding: 10px 0;
+}
+
+/* conatct-us */
+form {
+  font-family: "Lato", sans-serif;
+  /* border: 2px solid #000; */
+  margin-top: 10px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  text-align: right;
+  display: inline-block;
+  padding: 10px;
+  width: 150px;
+}
+
+.form-control {
+  border: none;
+  width: 300px;
+  background-color: #f0e2c5;
+  border-bottom: 2px solid #49281a;
+  outline: none;
+}
+
+.btnSubmit {
+  border: none;
+  width: 200px;
+  height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 160px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.9rem;
 }
